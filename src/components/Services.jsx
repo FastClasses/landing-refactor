@@ -44,7 +44,7 @@ const Services = ({ t }) => {
                                     {service.icon}
                                 </div>
                                 <h3 className="text-2xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                                <p className="text-gray-500 text-sm font-medium uppercase tracking-wider mb-4">Mar A Fado Solutions</p>
+                                <p className="text-gray-500 text-sm font-medium uppercase tracking-wider mb-4">FastClass Solutions</p>
                                 <div className="w-full bg-gray-100 h-px mb-4"></div>
                                 <button className="text-deep-blue font-semibold flex items-center group">
                                     Learn more

@@ -15,7 +15,7 @@ const Navigation = ({ lang, setLang, t }) => {
     const navLinks = [
         { key: '/', label: t.nav.home },
         { key: '/about', label: t.nav.about },
-        { key: '/vision', label: t.nav.vision },
+        { key: '/pricing', label: t.nav.pricing },
         { key: '/policies', label: t.nav.policies },
         { key: '/services', label: t.nav.services },
         { key: '/contact', label: t.nav.contact },
@@ -27,7 +27,7 @@ const Navigation = ({ lang, setLang, t }) => {
                 <div className="flex justify-between items-center h-20">
 
                     <Link to="/" className="shrink-0 cursor-pointer">
-                        <img className="h-20 w-auto transition-transform duration-300 hover:scale-105" src={`${import.meta.env.BASE_URL}assets/logo_nav_new.png`} alt="Mar A Fado Logo" />
+                        <img className="h-20 w-auto transition-transform duration-300 hover:scale-105" src={`${import.meta.env.BASE_URL}assets/fastclass_logo.png`} alt="FastClass Logo" />
                     </Link>
 
 
@@ -55,7 +55,7 @@ const Navigation = ({ lang, setLang, t }) => {
                             </button>
                             {langOpen && (
                                 <div className="absolute right-0 mt-2 w-24 bg-white rounded-md shadow-lg py-1 border border-gray-100 z-50">
-                                    {['pt', 'en', 'fr'].map((l) => (
+                                    {['pt', 'en'].map((l) => (
                                         <button
                                             key={l}
                                             onClick={() => switchLang(l)}
@@ -100,7 +100,7 @@ const Navigation = ({ lang, setLang, t }) => {
                         ))}
                         <div className="pt-8 pb-4">
                             <div className="flex justify-center space-x-4">
-                                {['pt', 'en', 'fr'].map((l) => (
+                                {['pt', 'en'].map((l) => (
                                     <button
                                         key={l}
                                         onClick={() => { switchLang(l); setIsOpen(false); }}

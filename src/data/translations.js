@@ -3,7 +3,7 @@ export const translations = {
         nav: {
             home: "Início",
             about: "Sobre Nós",
-            vision: "Visão | Missão | Valores",
+            pricing: "Planos e Preços",
             policies: "Políticas",
             services: "Serviços",
             contact: "Contactos",
@@ -11,14 +11,14 @@ export const translations = {
         hero: {
             title: "Sustentabilidade com Propósito",
             subtitle: "Este é o lugar onde o caminho para a Sustentabilidade começa.",
-            description: "Na Mar A Fado, criamos a estratégia de sustentabilidade, planeamos, executamos, monitorizamos, medimos e melhoramos continuamente... consigo! O caminho da sua empresa com destino à sustentabilidade começa aqui!",
+            description: "Na FastClass, criamos a estratégia de sustentabilidade, planeamos, executamos, monitorizamos, medimos e melhoramos continuamente... consigo! O caminho da sua empresa com destino à sustentabilidade começa aqui!",
             cta: "Conheça os nossos serviços",
             consultancyTitle: "A transformar PMEs com Consultoria",
             consultancyDesc: "Somos uma empresa de consultoria sediada em Lisboa, especializada em potenciar as PMEs a atingir os seus objetivos e impulsionar a sua performance. Utilizamos técnicas de co-criação e ferramentas do lean management e da qualidade para ajudar os nossos clientes a alcançar o sucesso.",
         },
         whyUs: {
             title: "Co-criação para o sucesso",
-            intro: "A Mar A Fado é uma empresa de consultoria | auditoria | formação especializada em ajudar organizações a alcançar o sucesso através de práticas sustentáveis. Utilizamos técnicas de co-criação, lean management, ferramentas da qualidade e auditoria para identificar oportunidades de melhoria e implementar estratégias eficazes.",
+            intro: "A FastClass é uma empresa de consultoria | auditoria | formação especializada em ajudar organizações a alcançar o sucesso através de práticas sustentáveis. Utilizamos técnicas de co-criação, lean management, ferramentas da qualidade e auditoria para identificar oportunidades de melhoria e implementar estratégias eficazes.",
             items: [
                 { title: "Consultoria", desc: "Sistemas de Gestão e Facility Management" },
                 { title: "Auditoria", desc: "Auditoria de 2ª e 3ª parte" },
@@ -27,10 +27,10 @@ export const translations = {
         },
         about: {
             title: "Sobre Nós",
-            intro: "A Mar A Fado é uma empresa dedicada à co-criação de uma estratégia de sustentabilidade e economia circular através da consultoria | auditoria | formação.",
+            intro: "A FastClass é uma empresa dedicada à co-criação de uma estratégia de sustentabilidade e economia circular através da consultoria | auditoria | formação.",
             historyTitle: "A Nossa História",
             historyText: [
-                "A Mar A Fado surge com a ambição de concretizar uma reabilitação sustentável de uma moradia classificada pela Direção Geral de Património Cultural, de 1928, em Luz de Tavira, que a CEO & Founder, Inês Viegas, adquiriu para sua morada de família em 2021, em plena pandemia.",
+                "A FastClass surge com a ambição de concretizar uma reabilitação sustentável de uma moradia classificada pela Direção Geral de Património Cultural, de 1928, em Luz de Tavira, que a CEO & Founder, Inês Viegas, adquiriu para sua morada de família em 2021, em plena pandemia.",
                 "Sendo a fundadora descendente de pais algarvios e licenciada em engenharia do ambiente, cedo se apercebeu que a sua vida iria ter o propósito da preservação ambiental, em estreito compromisso com o avanço tecnológico, o desenvolvimento económico e em prol das comunidades.",
                 "Em 2001, quando terminou a sua licenciatura no IST, o Ambiente era o futuro, porém, o futuro apenas chegou em 2023, com a publicação da Diretiva de Reporte Corporativo de Sustentabilidade (CSRD), de aplicação mandatória, em linha de conta com a dupla materialidade, de impacto e financeiro, reportando as questões ESG da cadeia de valor das empresas.",
                 "Enquanto o futuro não chegava, manteve uma relação estreita com o Ambiente, promovendo, de todos os prismas dos Sistemas de Gestão (consultoria interna, externa, auditoria, formação e gestão) a implementação e certificação destes sistemas em contextos tão diversos quanto a construção de instalações especiais (gasodutos, barragens, muito alta tensão, construção civil de grandes obras), as telecomunicações ou a fileira da pasta de celulose e papel. Por fim, na consultoria em tecnologias de informação.",
@@ -50,25 +50,15 @@ export const translations = {
                 { title: "Formação e Desenvolvimento Profissional", text: "Completou com sucesso cursos de especialização em Saúde e Segurança do Trabalho, pós-graduações em Qualidade e Gestão." }
             ]
         },
-        vision: {
-            title: "Visão | Missão | Valores",
-            visionTitle: "Visão",
-            visionText: "Ser uma referência em soluções sustentáveis com identidade cultural, enraizada na tradição portuguesa e projetada para o futuro. Queremos inspirar uma transição ecológica autêntica, local e com impacto global.",
-            missionTitle: "Missão",
-            missionText: "Criar e implementar projetos, produtos e serviços sustentáveis que respeitem o património natural e cultural, promovendo inovação, economia circular e responsabilidade social, sempre com alma portuguesa.",
-            valuesTitle: "Valores",
-            valuesList: [
-                { label: "Autenticidade", text: "Fiel às raízes, com inovação enraizada na cultura." },
-                { label: "Sustentabilidade", text: "Compromisso com o ambiente, a comunidade e o futuro." },
-                { label: "Cuidado", text: "Respeito pelas pessoas, pelo território e pelo tempo." },
-                { label: "Cocriação", text: "Trabalhamos com e para a comunidade." },
-                { label: "Transparência", text: "Ética em cada gesto e processo." },
-                { label: "Inquietação criativa", text: "Questionamos para inovar com propósito." }
-            ]
+        pricing: {
+            title: "Planos e Preços",
+            subtitle: "Opções flexíveis para a sua aprendizagem.",
+            packagesTitle: "Os Nossos Pacotes",
+            intro: "Explore os nossos níveis de preços competitivos desenhados para acelerar a sua aprendizagem."
         },
         policies: {
             title: "Políticas",
-            intro: "A Mar A Fado compromete-se com uma atuação responsável, orientada por um sistema de gestão integrado.",
+            intro: "A FastClass compromete-se com uma atuação responsável, orientada por um sistema de gestão integrado.",
             qualityTitle: "Qualidade",
             qualityItems: [
                 "Satisfação total dos nossos parceiros, clientes e comunidades.",
@@ -152,7 +142,7 @@ export const translations = {
         nav: {
             home: "Home",
             about: "About Us",
-            vision: "Vision | Mission | Values",
+            pricing: "Plans & Pricing",
             policies: "Policies",
             services: "Services",
             contact: "Contact",
@@ -160,14 +150,14 @@ export const translations = {
         hero: {
             title: "Sustainability with Purpose",
             subtitle: "This is where the path to Sustainability begins.",
-            description: "At Mar A Fado, we create sustainability strategy, plan, execute, monitor, measure, and continuously improve... with you! Your company's journey to sustainability starts here!",
+            description: "At FastClass, we create sustainability strategy, plan, execute, monitor, measure, and continuously improve... with you! Your company's journey to sustainability starts here!",
             cta: "Discover our services",
             consultancyTitle: "Transforming SMEs with Consultancy",
             consultancyDesc: "We are a consultancy firm based in Lisbon, specialized in empowering SMEs to achieve their goals and boost performance. We use co-creation techniques and lean management tools to help our clients reach success.",
         },
         whyUs: {
             title: "Co-creation for Success",
-            intro: "Mar A Fado helps organizations achieve success through sustainable practices. We use co-creation, lean management, and audit tools to identify improvement opportunities.",
+            intro: "FastClass helps organizations achieve success through sustainable practices. We use co-creation, lean management, and audit tools to identify improvement opportunities.",
             items: [
                 { title: "Consultancy", desc: "Management Systems and Facility Management" },
                 { title: "Audit", desc: "2nd and 3rd party audits" },
@@ -176,10 +166,10 @@ export const translations = {
         },
         about: {
             title: "About Us",
-            intro: "Mar A Fado is dedicated to co-creating sustainability strategies and circular economy through consultancy, audit, and training.",
+            intro: "FastClass is dedicated to co-creating sustainability strategies and circular economy through consultancy, audit, and training.",
             historyTitle: "Our History",
             historyText: [
-                "Mar A Fado was born from the ambition to sustainably rehabilitate a 1928 heritage house in Luz de Tavira. The founder, with Algarvian roots and an Environmental Engineering degree, realized early on that her life's purpose would be environmental preservation, committed to technological progress and community development.",
+                "FastClass was born from the ambition to sustainably rehabilitate a 1928 heritage house in Luz de Tavira. The founder, with Algarvian roots and an Environmental Engineering degree, realized early on that her life's purpose would be environmental preservation, committed to technological progress and community development.",
                 "In 2001, when she finished her degree at IST, Environment was the future, but the future only arrived in 2023, with the publication of the Corporate Sustainability Reporting Directive (CSRD), reporting ESG issues in the value chain.",
                 "While the future was arriving, she maintained a close relationship with the Environment, promoting the implementation and certification of systems in contexts as diverse as special facilities construction (pipelines, dams, high voltage), telecommunications, or the pulp and paper industry.",
                 "Horizons broadened into related matters such as Quality, Health and Safety, Energy, Chain of Custody (FSC®, PEFC™, SBP®), Risk and Asset Management, and later Facility Management, hand in hand with Wellbeing."
@@ -197,25 +187,15 @@ export const translations = {
                 { title: "Leadership", text: "Led teams of different sizes and skills, managing budgets and FM service providers." }
             ]
         },
-        vision: {
-            title: "Vision | Mission | Values",
-            visionTitle: "Vision",
-            visionText: "To be a benchmark in sustainable solutions with cultural identity, rooted in Portuguese tradition and projected into the future. We want to inspire an authentic, local ecological transition with global impact.",
-            missionTitle: "Mission",
-            missionText: "To create and implement sustainable projects, products, and services that respect natural and cultural heritage, promoting innovation, circular economy, and social responsibility, always with a Portuguese soul.",
-            valuesTitle: "Values",
-            valuesList: [
-                { label: "Authenticity", text: "True to roots, with innovation rooted in culture." },
-                { label: "Sustainability", text: "Commitment to the environment, community, and future." },
-                { label: "Care", text: "Respect for people, territory, and time." },
-                { label: "Co-creation", text: "We work with and for the community." },
-                { label: "Transparency", text: "Ethics in every gesture and process." },
-                { label: "Creative Restlessness", text: "We question to innovate with purpose." }
-            ]
+        pricing: {
+            title: "Plans & Pricing",
+            subtitle: "Flexible options for every learner.",
+            packagesTitle: "Our Packages",
+            intro: "Explore our competitive pricing tiers designed to speed up your learning."
         },
         policies: {
             title: "Policies",
-            intro: "Mar A Fado is committed to responsible action, guided by an integrated management system.",
+            intro: "FastClass is committed to responsible action, guided by an integrated management system.",
             qualityTitle: "Quality",
             qualityItems: [
                 "Total satisfaction of our partners, clients, and communities.",
@@ -276,8 +256,8 @@ export const translations = {
                     "SEVESO III Directive Management Systems",
                     "Due Diligence (EUDR)",
                     "FSC® - Forest Stewardship Council",
-                    "PEFC™ - Program for the Endorsment of Forest Certification",
-                    "SBP® - Sustainable Biomass Partnership"
+                    "PEFC™",
+                    "SBP®"
                 ]
             }
         },
@@ -293,153 +273,6 @@ export const translations = {
             addressLabel: "Address",
             phoneLabel: "Phone",
             emailLabel: "Email"
-        },
-    },
-    fr: {
-        nav: {
-            home: "Accueil",
-            about: "À Propos",
-            vision: "Vision | Mission | Valeurs",
-            policies: "Politiques",
-            services: "Services",
-            contact: "Contact",
-        },
-        hero: {
-            title: "Durabilité avec un But",
-            subtitle: "C'est ici que commence le chemin vers la Durabilité.",
-            description: "Chez Mar A Fado, nous créons la stratégie de durabilité, planifions, exécutons, surveillons et améliorons continuellement... avec vous ! Le chemin de votre entreprise vers la durabilité commence ici !",
-            cta: "Découvrez nos services",
-            consultancyTitle: "Transformer les PME avec le Conseil",
-            consultancyDesc: "Nous sommes une société de conseil basée à Lisbonne, spécialisée dans l'autonomisation des PME pour atteindre leurs objectifs. Nous utilisons des techniques de co-création et des outils de gestion lean pour aider nos clients.",
-        },
-        whyUs: {
-            title: "Co-création pour le succès",
-            intro: "Mar A Fado aide les organisations à réussir grâce à des pratiques durables. Nous utilisons la co-création, le lean management et l'audit pour identifier les opportunités d'amélioration.",
-            items: [
-                { title: "Conseil", desc: "Systèmes de Gestion et Facility Management" },
-                { title: "Audit", desc: "Audits de 2ème et 3ème partie" },
-                { title: "Formation", desc: "Renforcement des capacités des équipes et des leaders" },
-            ],
-        },
-        about: {
-            title: "À Propos",
-            intro: "Mar A Fado est dédiée à la co-création de stratégies de durabilité et d'économie circulaire à travers le conseil, l'audit et la formation.",
-            historyTitle: "Notre Histoire",
-            historyText: [
-                "Mar A Fado est née de l'ambition de réhabiliter durablement une maison classée de 1928 à Luz de Tavira. La fondatrice, d'origine algarvienne et ingénieure en environnement, a compris tôt que son but serait la préservation de l'environnement, alliée au progrès technologique.",
-                "En 2001, lorsqu'elle a terminé son diplôme à l'IST, l'Environnement était l'avenir, mais l'avenir n'est arrivé qu'en 2023, avec la publication de la directive sur les rapports de durabilité des entreprises (CSRD).",
-                "En attendant l'avenir, elle a maintenu une relation étroite avec l'Environnement, promouvant la mise en œuvre et la certification de systèmes dans des contextes aussi divers que la construction d'installations spéciales, les télécommunications ou l'industrie de la pâte à papier.",
-                "Les horizons se sont élargis à des questions connexes telles que la Qualité, la Santé et Sécurité, l'Énergie, la Chaîne de Contrôle (FSC®, PEFC™, SBP®) et plus tard le Facility Management."
-            ],
-            founderTitle: "PDG et Fondatrice",
-            founderName: "Inês Filipe Viegas",
-            founderBio: [
-                "Diplômée en Génie de l'Environnement de l'IST, avec deux décennies d'expérience en durabilité, facility management et qualité. Certaines de ses principales réalisations incluent :"
-            ],
-            founderAchievements: [
-                { title: "Durabilité", text: "A réalisé et vérifié des rapports de durabilité selon AA1000, GRI, ESRS et VSME depuis 2008." },
-                { title: "Facility Management", text: "Head of Workplace & Backoffice Operations chez NTT Data Portugal et coordinatrice corporative FM chez The Navigator Company." },
-                { title: "Gestion QHSE", text: "A occupé des postes de responsable QHSE mondial et de site chez The Navigator Company, ENSULMECI et GTE Consultores." },
-                { title: "Conseil et Audit", text: "En tant que gestionnaire de clientèle et auditrice chez APCER, a fourni des services de certification." },
-                { title: "Leadership", text: "A dirigé des équipes de tailles et de compétences différentes, gérant des budgets et des prestataires de services FM." }
-            ]
-        },
-        vision: {
-            title: "Vision | Mission | Valeurs",
-            visionTitle: "Vision",
-            visionText: "Être une référence en solutions durables avec identité culturelle, ancrée dans la tradition portugaise et projetée vers l'avenir. Nous voulons inspirer une transition écologique authentique, locale et à impact mondial.",
-            missionTitle: "Mission",
-            missionText: "Créer et mettre en œuvre des projets, produits et services durables qui respectent le patrimoine naturel et culturel, promouvant l'innovation et l'économie circulaire.",
-            valuesTitle: "Valeurs",
-            valuesList: [
-                { label: "Authenticité", text: "Fidèle aux racines, avec l'innovation ancrée dans la culture." },
-                { label: "Durabilité", text: "Engagement envers l'environnement, la communauté et l'avenir." },
-                { label: "Soin", text: "Respect des personnes, du territoire et du temps." },
-                { label: "Co-création", text: "Nous travaillons avec et pour la communauté." },
-                { label: "Transparence", text: "Éthique dans chaque geste et processus." },
-                { label: "Inquiétude créative", text: "Nous questionnons pour innover avec un but." }
-            ]
-        },
-        policies: {
-            title: "Politiques",
-            intro: "Mar A Fado s'engage à une action responsable, guidée par un système de gestion intégré.",
-            qualityTitle: "Qualité",
-            qualityItems: [
-                "Satisfaction totale de nos partenaires, clients et communautés.",
-                "Amélioration continue basée sur des critères éthiques."
-            ],
-            environmentTitle: "Environnement",
-            environmentItems: [
-                "Respect rigoureux des exigences légales environnementales.",
-                "Réduction de l'empreinte écologique et prévention de la pollution.",
-                "Promotion de l'économie circulaire et de l'efficacité énergétique."
-            ],
-            safetyTitle: "Sécurité",
-            safetyItems: [
-                "Garantie d'un environnement de travail sûr et sain.",
-                "Prévention des risques et culture de sécurité collaborative.",
-                "Formation continue des équipes."
-            ]
-        },
-        services: {
-            title: "Nos Services",
-            intro: "Nous offrons des solutions personnalisées pour aider votre entreprise à atteindre ses objectifs.",
-            sustainability: {
-                title: "Durabilité",
-                items: [
-                    "Empreinte Carbone Corporative et Produit",
-                    "Empreinte Eau",
-                    "Rapports de Durabilité ESG (ESRS, VSME)",
-                    "Rapports Principe DNSH",
-                    "Marché Volontaire du Carbone"
-                ]
-            },
-            managementSystems: {
-                title: "Systèmes de Gestion ISO",
-                items: [
-                    "ISO 9001 - Gestion de la Qualité",
-                    "ISO 14001 - Gestion Environnementale",
-                    "ISO 20121 - Gestion Événementielle Durable",
-                    "ISO 31000 - Gestion des Risques",
-                    "ISO 41001 - Facility Management",
-                    "ISO 45001 - Santé et Sécurité au Travail",
-                    "ISO 50001 - Gestion de l'Énergie",
-                    "ISO 55001 - Gestion des Actifs"
-                ]
-            },
-            facilityManagement: {
-                title: "Facility Management",
-                items: [
-                    "Évaluation de la Maturité de la Stratégie FM",
-                    "Modèle FM",
-                    "Approvisionnement et Contrats de Services FM",
-                    "Systèmes de Gestion FM",
-                    "Certification Well"
-                ]
-            },
-            safetyResponsibility: {
-                title: "Sécurité et Responsabilité",
-                items: [
-                    "Systèmes de Gestion Directive SEVESO III",
-                    "Due Diligence (EUDR)",
-                    "FSC® - Forest Stewardship Council",
-                    "PEFC™",
-                    "SBP®"
-                ]
-            }
-        },
-        contact: {
-            title: "Contactez-nous",
-            name: "Nom",
-            email: "E-mail",
-            message: "Message",
-            send: "Envoyer le message",
-            info: "Coordonnées",
-            location: "Emplacement",
-            address: "R. Hermano Neves 18, Piso 3, Escritório 7, V4051, 1600-477 Lisboa",
-            addressLabel: "Adresse",
-            phoneLabel: "Téléphone",
-            emailLabel: "E-mail"
         },
     },
 };

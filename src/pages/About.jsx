@@ -30,7 +30,7 @@ const About = ({ t }) => {
                                 <div className="w-full h-auto overflow-hidden rounded-xl shadow-md bg-white border border-gray-100 transform hover:scale-105 transition-transform duration-300">
                                     <img
                                         src={`${import.meta.env.BASE_URL}assets/history_facade.png`}
-                                        alt="Mar A Fado Facade"
+                                        alt="FastClass Facade"
                                         className="w-full h-full object-contain"
                                     />
                                 </div>
@@ -62,7 +62,7 @@ const About = ({ t }) => {
                                 <div className="w-full h-auto overflow-hidden rounded-xl shadow-md bg-white border border-gray-100 transform hover:scale-105 transition-transform duration-300">
                                     <img
                                         src={`${import.meta.env.BASE_URL}assets/history_tile.png`}
-                                        alt="Mar A Fado Tiles"
+                                        alt="FastClass Tiles"
                                         className="w-full h-full object-contain"
                                     />
                                 </div>

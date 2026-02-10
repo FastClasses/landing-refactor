@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import CookieConsentBanner from './components/CookieConsentBanner';
 import Home from './pages/Home';
 import About from './pages/About';
-import VisionMissionValues from './pages/VisionMissionValues';
+import PlansPricing from './pages/PlansPricing';
 import Policies from './pages/Policies';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
@@ -38,7 +38,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home t={t} />} />
             <Route path="/about" element={<About t={t} />} />
-            <Route path="/vision" element={<VisionMissionValues t={t} />} />
+            <Route path="/pricing" element={<PlansPricing t={t} />} />
             <Route path="/policies" element={<Policies t={t} />} />
             <Route path="/services" element={<Services t={t} />} />
             <Route path="/contact" element={<Contact t={t} />} />

@@ -10,7 +10,7 @@ const Footer = ({ t }) => {
                             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                             className="block transform hover:scale-105 transition-transform duration-300 focus:outline-none"
                         >
-                            <img src={`${import.meta.env.BASE_URL}assets/logo_footer_final.png`} alt="Mar A Fado" className="h-14 w-auto mx-auto md:mx-0 opacity-90 transition-all duration-500 cursor-pointer" />
+                            <img src={`${import.meta.env.BASE_URL}assets/fastclass_logo.png`} alt="FastClass" className="h-14 w-auto mx-auto md:mx-0 opacity-90 transition-all duration-500 cursor-pointer" />
                         </button>
                     </div>
 
@@ -26,7 +26,7 @@ const Footer = ({ t }) => {
 
                     <div className="flex items-center space-x-4 z-10">
                         <p className="text-gray-500 text-sm">
-                            &copy; {new Date().getFullYear()} Mar A Fado. All rights reserved.
+                            &copy; {new Date().getFullYear()} FastClass. All rights reserved.
                         </p>
                         <a
                             href="https://www.linkedin.com/company/mar-a-fado-sustentabilidade-lda/about/"

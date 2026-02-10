@@ -2,14 +2,14 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ title, description, keywords, lang = 'pt' }) => {
-    const siteTitle = "Mar A Fado - Sustentabilidade";
+    const siteTitle = "FastClass";
 
     return (
         <Helmet>
             <html lang={lang} />
             <title>{title ? `${title} | ${siteTitle}` : siteTitle}</title>
-            <meta name="description" content={description || "Mar A Fado - Consultoria, Auditoria e Formação em Sustentabilidade."} />
-            <meta name="keywords" content={keywords || "sustentabilidade, consultoria, ambiente, portugal, mar a fado"} />
+            <meta name="description" content={description || "FastClass - Sustainability Consulting, Audit and Training."} />
+            <meta name="keywords" content={keywords || "sustainability, consultancy, environment, portugal, fastclass"} />
 
             {/* Open Graph / Facebook */}
             <meta property="og:type" content="website" />
