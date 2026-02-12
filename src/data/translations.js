@@ -12,7 +12,7 @@ export const translations = {
             title: "Chega de caos administrativo. Domine o seu centro de explicações.",
             subtitle: "Uma plataforma intuitiva criada por quem conhece o terreno. Centralize pagamentos, agendamentos e alunos num único lugar.",
             description: "Descubra como a FastClass se adapta ao seu centro.",
-            cta: "Agendar Demonstração Gratuita",
+            cta: "Demonstração Gratuita",
         },
         problem: {
             title: "Porquê continuar a lutar com o básico?",

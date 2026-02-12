@@ -95,10 +95,26 @@ const About = ({ t }) => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                         {t.about.team.map((member, idx) => (
                             <div key={idx} className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex flex-col items-center text-center group">
-                                <div className="w-24 h-24 rounded-full bg-purple-50 mb-6 flex items-center justify-center group-hover:bg-deep-purple transition-colors duration-300">
-                                    <svg className="w-10 h-10 text-deep-purple group-hover:text-white transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                    </svg>
+                                <div className="w-24 h-24 rounded-full bg-purple-50 mb-6 flex items-end justify-center transition-colors duration-300 overflow-hidden relative">
+                                    {idx === 0 ? (
+                                        <img
+                                            src={`${import.meta.env.BASE_URL}assets/team_simao.jpg`}
+                                            alt={member.role}
+                                            className="w-full h-full object-cover transform scale-110 translate-y-2"
+                                        />
+                                    ) : idx === 1 ? (
+                                        <img
+                                            src={`${import.meta.env.BASE_URL}assets/team_joao.jpg`}
+                                            alt={member.role}
+                                            className="w-full h-full object-cover transform scale-110 translate-y-2"
+                                        />
+                                    ) : (
+                                        <div className="flex items-center justify-center h-full w-full">
+                                            <svg className="w-10 h-10 text-deep-purple group-hover:text-white transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                            </svg>
+                                        </div>
+                                    )}
                                 </div>
                                 <h3 className="text-xl font-bold text-deep-purple mb-2">{member.role}</h3>
                                 <p className="text-gray-600 leading-relaxed">{member.desc}</p>
