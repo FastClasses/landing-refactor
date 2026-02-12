@@ -4,17 +4,46 @@ export const translations = {
             home: "Início",
             about: "Sobre Nós",
             pricing: "Planos e Preços",
-            policies: "Políticas",
-            services: "Serviços",
+
+
             contact: "Contactos",
         },
         hero: {
-            title: "Sustentabilidade com Propósito",
-            subtitle: "Este é o lugar onde o caminho para a Sustentabilidade começa.",
-            description: "Na FastClass, criamos a estratégia de sustentabilidade, planeamos, executamos, monitorizamos, medimos e melhoramos continuamente... consigo! O caminho da sua empresa com destino à sustentabilidade começa aqui!",
-            cta: "Conheça os nossos serviços",
-            consultancyTitle: "A transformar PMEs com Consultoria",
-            consultancyDesc: "Somos uma empresa de consultoria sediada em Lisboa, especializada em potenciar as PMEs a atingir os seus objetivos e impulsionar a sua performance. Utilizamos técnicas de co-criação e ferramentas do lean management e da qualidade para ajudar os nossos clientes a alcançar o sucesso.",
+            title: "Chega de caos administrativo. Domine o seu centro de explicações.",
+            subtitle: "Uma plataforma intuitiva criada por quem conhece o terreno. Centralize pagamentos, agendamentos e alunos num único lugar.",
+            description: "Descubra como a FastClass se adapta ao seu centro.",
+            cta: "Agendar Demonstração Gratuita",
+        },
+        problem: {
+            title: "Porquê continuar a lutar com o básico?",
+            items: [
+                { title: "Informação Dispersa", desc: "Esqueça as dezenas de folhas de Excel e cadernos. Tenha os dados de todos os alunos e explicadores à distância de um clique." },
+                { title: "Pagamentos Manuais", desc: "O controlo de mensalidades não tem de ser uma dor de cabeça. Saiba instantaneamente quem pagou e o que está pendente." },
+                { title: "Conflitos de Agenda", desc: "Evite salas sobrelotadas ou choques de horários. Um sistema de agendamento inteligente que trabalha para si." }
+            ]
+        },
+        solution: {
+            items: [
+                { title: "Agendamento de Alta Performance", desc: "Planeie as suas sessões com uma interface visual clara. O nosso motor técnico garante que a lógica de horários é infalível, permitindo que se foque no que importa: ensinar." },
+                { title: "Gestão Financeira Simplificada", desc: "Transforme o lado administrativo numa tarefa simples. Acompanhe o fluxo de caixa do seu centro e automatize o registo de pagamentos sem processos manuais exaustivos." }
+            ]
+        },
+        trust: {
+            title: "Criado no centro da ação.",
+            desc: "A FastClass não é apenas software; é a solução para um problema real. Desenvolvida por um explicador de matemática e um arquiteto de sistemas, combinamos a experiência prática de quem gere centros com a segurança e robustez de engenharia informática de elite.",
+            cta: "Conheça a nossa história"
+        },
+        pricingPreview: {
+            cards: [
+                { title: "Plano Starter", subtitle: "Ideal para novos centros", cta: "Saber Mais", recommended: false },
+                { title: "Plano Pro", subtitle: "O equilíbrio perfeito para centros em crescimento", cta: "Pedir Orçamento", recommended: true },
+                { title: "Plano Enterprise", subtitle: "Para redes de centros e grandes operações", cta: "Falar com Especialista", recommended: false }
+            ]
+        },
+        closer: {
+            title: "Pronto para elevar o nível do seu negócio?",
+            subtitle: "Junte-se aos proprietários que já trocaram o stress manual pela eficiência da FastClass.",
+            cta: "Quero uma Demonstração"
         },
         whyUs: {
             title: "Co-criação para o sucesso",
@@ -27,28 +56,24 @@ export const translations = {
         },
         about: {
             title: "Sobre Nós",
-            intro: "A FastClass é uma empresa dedicada à co-criação de uma estratégia de sustentabilidade e economia circular através da consultoria | auditoria | formação.",
-            historyTitle: "A Nossa História",
-            historyText: [
-                "A FastClass surge com a ambição de concretizar uma reabilitação sustentável de uma moradia classificada pela Direção Geral de Património Cultural, de 1928, em Luz de Tavira, que a CEO & Founder, Inês Viegas, adquiriu para sua morada de família em 2021, em plena pandemia.",
-                "Sendo a fundadora descendente de pais algarvios e licenciada em engenharia do ambiente, cedo se apercebeu que a sua vida iria ter o propósito da preservação ambiental, em estreito compromisso com o avanço tecnológico, o desenvolvimento económico e em prol das comunidades.",
-                "Em 2001, quando terminou a sua licenciatura no IST, o Ambiente era o futuro, porém, o futuro apenas chegou em 2023, com a publicação da Diretiva de Reporte Corporativo de Sustentabilidade (CSRD), de aplicação mandatória, em linha de conta com a dupla materialidade, de impacto e financeiro, reportando as questões ESG da cadeia de valor das empresas.",
-                "Enquanto o futuro não chegava, manteve uma relação estreita com o Ambiente, promovendo, de todos os prismas dos Sistemas de Gestão (consultoria interna, externa, auditoria, formação e gestão) a implementação e certificação destes sistemas em contextos tão diversos quanto a construção de instalações especiais (gasodutos, barragens, muito alta tensão, construção civil de grandes obras), as telecomunicações ou a fileira da pasta de celulose e papel. Por fim, na consultoria em tecnologias de informação.",
-                "Os horizontes foram-se alargando em matérias conexas, como a Qualidade, a Saúde e Segurança do Trabalho, a Energia, a Cadeia de Responsabilidade FSC®, PEFC™ e SBP®, a Gestão do Risco e dos Ativos e, mais tarde, o Facility Management, de mãos dadas com o Wellbeing."
+            intro: "A FastClass nasceu da necessidade de simplificar a gestão de centros de explicações.",
+            story: [
+                "No final de 2025, enquanto tirava a licenciatura em Engenharia Informática, o nosso fundador começou a trabalhar como explicador de matemática num centro de estudos local. Ele adorava ensinar, mas rapidamente notou um grande problema: o lado administrativo era caótico. A informação estava dispersa, o controlo de pagamentos era manual e o agendamento era uma luta constante.",
+                "Ele percebeu que um centro não deve apenas sobreviver às operações diárias — deve dominá-las. Motivado pelo desejo de ajudar o seu empregador e otimizar o processo para todos, ele concebeu a ideia da FastClass.",
+                "Para tornar esta visão realidade, ele sabia que precisava de um parceiro técnico que pudesse executar ao mais alto nível. Contactou o programador mais qualificado que conhecia — um talento capaz de construir sistemas complexos e seguros. Juntos, formaram a equipa perfeita:"
             ],
-            founderTitle: "CEO & Founder",
-            founderName: "Inês Filipe Viegas",
-            founderBio: [
-                "Inês Viegas é licenciada em Engenharia do Ambiente pelo IST, com duas décadas de um background extenso e diverso em sustentabilidade, facility management e qualidade. Alguns dos seus maiores achievements incluem:"
+            team: [
+                {
+                    role: "O Arquiteto Técnico",
+                    desc: "O programador que construiu o motor poderoso por trás da plataforma."
+                },
+                {
+                    role: "O Estratega Operacional",
+                    desc: "O fundador que usou a sua experiência no terreno para desenhar as funcionalidades que os centros realmente precisam."
+                }
             ],
-            founderAchievements: [
-                { title: "Sustentabilidade", text: "Executou e verificou relatórios de sustentabilidade segundo a AA1000, a GRI, a ESRS e a VSME desde 2008. Foi também Verificadora EMAS e Responsável Ambiental do Reforço de Potência das Barragens de Bemposta e Baixo Sabor." },
-                { title: "Facility Management", text: "Foi Head of Workplace & Backoffice Operations na NTT Data Portugal, S.A e Coordenadora Corporativa de FM na The Navigator Company, gerindo operações em inúmeras localizações e tipologias de edifícios. Foi responsável por projetos de refit de inúmeros m² de ativos de acordo com a metodologia activity based." },
-                { title: "Gestão da Qualidade, Ambiente e Segurança", text: "Ocupou posições de gestora QHSE global e de site, na The Navigator Company, na ENSULMECI e na GTE Consultores, assegurando a compliance com as normas ISO." },
-                { title: "Consultoria, Auditoria e Formação", text: "Como Gestora de Cliente e Auditora na APCER, prestou serviços de certificação nas indústrias da Pasta & Papel, Calçado & Curtumes e Consultoria em Tecnologias de Informação." },
-                { title: "Liderança e Gestão de Equipas", text: "Liderou equipas de diferentes tamanhos e competências, variando entre 15 e 27 pessoas, tendo, em simultâneo, gerido orçamentos e prestadores de serviço de FM." },
-                { title: "Formação e Desenvolvimento Profissional", text: "Completou com sucesso cursos de especialização em Saúde e Segurança do Trabalho, pós-graduações em Qualidade e Gestão." }
-            ]
+            conclusion: "Hoje, a FastClass é um MVP totalmente realizado, pronto para ajudar proprietários que têm a vontade de simplificar o seu negócio.",
+            ctaButton: "Explorar Funcionalidades"
         },
         pricing: {
             title: "Planos e Preços",
@@ -56,74 +81,8 @@ export const translations = {
             packagesTitle: "Os Nossos Pacotes",
             intro: "Explore os nossos níveis de preços competitivos desenhados para acelerar a sua aprendizagem."
         },
-        policies: {
-            title: "Políticas",
-            intro: "A FastClass compromete-se com uma atuação responsável, orientada por um sistema de gestão integrado.",
-            qualityTitle: "Qualidade",
-            qualityItems: [
-                "Satisfação total dos nossos parceiros, clientes e comunidades.",
-                "Melhoria contínua de processos, produtos e serviços com base em critérios éticos e de impacto positivo."
-            ],
-            environmentTitle: "Ambiente",
-            environmentItems: [
-                "Cumprimento rigoroso dos requisitos legais aplicáveis aos seus aspetos ambientais.",
-                "Redução da pegada ecológica e prevenção da poluição em todas as atividades.",
-                "Promoção de práticas de economia circular, reutilização e eficiência energética."
-            ],
-            safetyTitle: "Segurança",
-            safetyItems: [
-                "Garantia de um ambiente de trabalho seguro e saudável.",
-                "Prevenção de riscos e promoção de uma cultura de segurança colaborativa.",
-                "Formação contínua e capacitação das equipas."
-            ]
-        },
-        services: {
-            title: "Os Nossos Serviços",
-            intro: "Oferecemos soluções personalizadas para ajudar a sua empresa a atingir os seus objetivos. Venha embarcar nesta viagem com destino à Sustentabilidade.",
-            sustainability: {
-                title: "Sustentabilidade",
-                items: [
-                    "Pegada de Carbono Corporativa e de Produto",
-                    "Pegada Hídrica",
-                    "Relatórios de Sustentabilidade ESG (ESRS, VSME)",
-                    "Relatórios do Princípio DNSH (Do No Significant Harm)",
-                    "Mercado Voluntário de Carbono"
-                ]
-            },
-            managementSystems: {
-                title: "Sistemas de Gestão ISO",
-                items: [
-                    "ISO 9001 - Gestão da Qualidade",
-                    "ISO 14001 - Gestão Ambiental",
-                    "ISO 20121 - Gestão de Eventos Sustentáveis",
-                    "ISO 31000 - Gestão do Risco",
-                    "ISO 41001 - Facility Management",
-                    "ISO 45001 - Segurança e Saúde do Trabalho",
-                    "ISO 50001 - Gestão da Energia",
-                    "ISO 55001 - Gestão de Ativos"
-                ]
-            },
-            facilityManagement: {
-                title: "Facility Management",
-                items: [
-                    "Avaliação da Maturidade da Estratégia de FM",
-                    "Modelo de FM",
-                    "Procurement e Contratação de Serviços de FM",
-                    "Sistemas de Gestão de FM",
-                    "Certificação Well"
-                ]
-            },
-            safetyResponsibility: {
-                title: "Segurança e Responsabilidade",
-                items: [
-                    "SGSPAG segundo a Diretiva SEVESO III",
-                    "Due Diligence (EUDR)",
-                    "FSC® - Forest Stewardship Council",
-                    "PEFC™ - Program for the Endorsment of Forest Certification",
-                    "SBP® - Sustainable Biomass Partnership"
-                ]
-            }
-        },
+
+
         contact: {
             title: "Fale Conosco",
             name: "Nome",
@@ -131,9 +90,6 @@ export const translations = {
             message: "Mensagem",
             send: "Enviar Mensagem",
             info: "Informações de Contacto",
-            location: "Localização",
-            address: "R. Hermano Neves 18, Piso 3, Escritório 7, V4051, 1600-477 Lisboa",
-            addressLabel: "Morada",
             phoneLabel: "Telefone",
             emailLabel: "Email"
         },
@@ -143,17 +99,46 @@ export const translations = {
             home: "Home",
             about: "About Us",
             pricing: "Plans & Pricing",
-            policies: "Policies",
-            services: "Services",
+
+
             contact: "Contact",
         },
         hero: {
-            title: "Sustainability with Purpose",
-            subtitle: "This is where the path to Sustainability begins.",
-            description: "At FastClass, we create sustainability strategy, plan, execute, monitor, measure, and continuously improve... with you! Your company's journey to sustainability starts here!",
-            cta: "Discover our services",
-            consultancyTitle: "Transforming SMEs with Consultancy",
-            consultancyDesc: "We are a consultancy firm based in Lisbon, specialized in empowering SMEs to achieve their goals and boost performance. We use co-creation techniques and lean management tools to help our clients reach success.",
+            title: "No more administrative chaos. Master your learning center.",
+            subtitle: "An intuitive platform created by those who know the field. Centralize payments, scheduling, and students in one place.",
+            description: "Discover how FastClass adapts to your center.",
+            cta: "Schedule Free Demo",
+        },
+        problem: {
+            title: "Why continue struggling with the basics?",
+            items: [
+                { title: "Scattered Information", desc: "Forget dozens of Excel sheets and notebooks. Have all student and tutor data just a click away." },
+                { title: "Manual Payments", desc: "Monthly payment control doesn't have to be a headache. Know instantly who paid and what's pending." },
+                { title: "Schedule Conflicts", desc: "Avoid overcrowded rooms or schedule clashes. An intelligent scheduling system that works for you." }
+            ]
+        },
+        solution: {
+            items: [
+                { title: "High Performance Scheduling", desc: "Plan your sessions with a clear visual interface. Our technical engine ensures schedule logic is foolproof, allowing you to focus on what matters: teaching." },
+                { title: "Simplified Financial Management", desc: "Turn administration into a simple task. Track your center's cash flow and automate payment recording without exhausting manual processes." }
+            ]
+        },
+        trust: {
+            title: "Created in the center of action.",
+            desc: "FastClass is not just software; it's the solution to a real problem. Developed by a math tutor and a systems architect, we combine the practical experience of managing centers with the security and robustness of elite computer engineering.",
+            cta: "Know our story"
+        },
+        pricingPreview: {
+            cards: [
+                { title: "Starter Plan", subtitle: "Ideal for new centers", cta: "Learn More", recommended: false },
+                { title: "Pro Plan", subtitle: "The perfect balance for growing centers", cta: "Request Quote", recommended: true },
+                { title: "Enterprise Plan", subtitle: "For center networks and large operations", cta: "Talk to Expert", recommended: false }
+            ]
+        },
+        closer: {
+            title: "Ready to level up your business?",
+            subtitle: "Join owners who have already swapped manual stress for FastClass efficiency.",
+            cta: "I want a Demo"
         },
         whyUs: {
             title: "Co-creation for Success",
@@ -166,26 +151,24 @@ export const translations = {
         },
         about: {
             title: "About Us",
-            intro: "FastClass is dedicated to co-creating sustainability strategies and circular economy through consultancy, audit, and training.",
-            historyTitle: "Our History",
-            historyText: [
-                "FastClass was born from the ambition to sustainably rehabilitate a 1928 heritage house in Luz de Tavira. The founder, with Algarvian roots and an Environmental Engineering degree, realized early on that her life's purpose would be environmental preservation, committed to technological progress and community development.",
-                "In 2001, when she finished her degree at IST, Environment was the future, but the future only arrived in 2023, with the publication of the Corporate Sustainability Reporting Directive (CSRD), reporting ESG issues in the value chain.",
-                "While the future was arriving, she maintained a close relationship with the Environment, promoting the implementation and certification of systems in contexts as diverse as special facilities construction (pipelines, dams, high voltage), telecommunications, or the pulp and paper industry.",
-                "Horizons broadened into related matters such as Quality, Health and Safety, Energy, Chain of Custody (FSC®, PEFC™, SBP®), Risk and Asset Management, and later Facility Management, hand in hand with Wellbeing."
+            intro: "FastClass was born from the need to simplify learning center management.",
+            story: [
+                "In late 2025, while pursuing his degree in Computer Science, our founder began working as a mathematics tutor at a local learning center. He loved teaching, but he quickly noticed a major problem: the administrative side was chaotic. Information was scattered, payment tracking was manual, and scheduling was a constant struggle.",
+                "He realized that a center shouldn't just survive its daily operations—it should master them. Driven by a desire to help his employer and streamline the process for everyone, he conceived the idea for FastClass.",
+                "To turn this vision into reality, he knew he needed a technical partner who could execute at the highest level. He reached out to the most skilled programmer he knew—a talented developer capable of building complex, secure systems. Together, they formed the perfect team:"
             ],
-            founderTitle: "CEO & Founder",
-            founderName: "Inês Filipe Viegas",
-            founderBio: [
-                "Degree in Environmental Engineering from IST, with two decades of extensive background in sustainability, facility management, and quality. Some of her major achievements include:"
+            team: [
+                {
+                    role: "The Technical Architect",
+                    desc: "The developer who built the powerful engine behind the platform."
+                },
+                {
+                    role: "The Operational Strategist",
+                    desc: "The founder who used his on-the-ground experience to design the features that centers actually need."
+                }
             ],
-            founderAchievements: [
-                { title: "Sustainability", text: "Executed and verified sustainability reports according to AA1000, GRI, ESRS, and VSME since 2008. Was also an EMAS Verifier and Environmental Manager." },
-                { title: "Facility Management", text: "Head of Workplace & Backoffice Operations at NTT Data Portugal and Corporate FM Coordinator at The Navigator Company." },
-                { title: "QHSE Management", text: "Held global and site QHSE manager positions at The Navigator Company, ENSULMECI, and GTE Consultores." },
-                { title: "Consultancy & Audit", text: "As Client Manager and Auditor at APCER, provided certification services in various industries." },
-                { title: "Leadership", text: "Led teams of different sizes and skills, managing budgets and FM service providers." }
-            ]
+            conclusion: "Today, FastClass is a fully realized MVP, ready to help owners who have the drive to simplify their business.",
+            ctaButton: "Explore Features"
         },
         pricing: {
             title: "Plans & Pricing",
@@ -193,74 +176,8 @@ export const translations = {
             packagesTitle: "Our Packages",
             intro: "Explore our competitive pricing tiers designed to speed up your learning."
         },
-        policies: {
-            title: "Policies",
-            intro: "FastClass is committed to responsible action, guided by an integrated management system.",
-            qualityTitle: "Quality",
-            qualityItems: [
-                "Total satisfaction of our partners, clients, and communities.",
-                "Continuous improvement based on ethical criteria and positive impact."
-            ],
-            environmentTitle: "Environment",
-            environmentItems: [
-                "Strict compliance with legal environmental requirements.",
-                "Reduction of ecological footprint and pollution prevention.",
-                "Promotion of circular economy and energy efficiency."
-            ],
-            safetyTitle: "Safety",
-            safetyItems: [
-                "Guarantee of a safe and healthy work environment.",
-                "Risk prevention and promotion of a collaborative safety culture.",
-                "Continuous training and team empowerment."
-            ]
-        },
-        services: {
-            title: "Our Services",
-            intro: "We offer personalized solutions to help your company achieve its goals. Embark on this journey to Sustainability.",
-            sustainability: {
-                title: "Sustainability",
-                items: [
-                    "Corporate and Product Carbon Footprint",
-                    "Water Footprint",
-                    "ESG Sustainability Reporting (ESRS, VSME)",
-                    "DNSH Principle Reporting",
-                    "Voluntary Carbon Market"
-                ]
-            },
-            managementSystems: {
-                title: "ISO Management Systems",
-                items: [
-                    "ISO 9001 - Quality Management",
-                    "ISO 14001 - Environmental Management",
-                    "ISO 20121 - Sustainable Event Management",
-                    "ISO 31000 - Risk Management",
-                    "ISO 41001 - Facility Management",
-                    "ISO 45001 - Occupational Health & Safety",
-                    "ISO 50001 - Energy Management",
-                    "ISO 55001 - Asset Management"
-                ]
-            },
-            facilityManagement: {
-                title: "Facility Management",
-                items: [
-                    "FM Strategy Maturity Assessment",
-                    "FM Model",
-                    "Procurement and FM Service Contracting",
-                    "FM Management Systems",
-                    "Well Certification"
-                ]
-            },
-            safetyResponsibility: {
-                title: "Safety & Responsibility",
-                items: [
-                    "SEVESO III Directive Management Systems",
-                    "Due Diligence (EUDR)",
-                    "FSC® - Forest Stewardship Council",
-                    "PEFC™",
-                    "SBP®"
-                ]
-            }
-        },
+
+
         contact: {
             title: "Contact Us",
             name: "Name",
@@ -268,9 +185,6 @@ export const translations = {
             message: "Message",
             send: "Send Message",
             info: "Contact Information",
-            location: "Location",
-            address: "R. Hermano Neves 18, Piso 3, Escritório 7, V4051, 1600-477 Lisboa",
-            addressLabel: "Address",
             phoneLabel: "Phone",
             emailLabel: "Email"
         },

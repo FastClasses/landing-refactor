@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyUs = ({ t }) => {
     return (
-        <section className="py-20 bg-deep-blue text-white relative overflow-hidden">
+        <section className="py-20 bg-deep-purple text-white relative overflow-hidden">
 
             <div className="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-white opacity-5 rounded-full blur-3xl"></div>
@@ -10,7 +10,7 @@ const WhyUs = ({ t }) => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">{t.whyUs.title}</h2>
-                    <p className="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto font-light">
+                    <p className="text-lg md:text-xl text-purple-100 max-w-2xl mx-auto font-light">
                         {t.whyUs.intro}
                     </p>
                 </div>
@@ -30,7 +30,7 @@ const WhyUs = ({ t }) => {
                                 )}
                             </div>
                             <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
-                            <p className="text-blue-100/90 leading-relaxed font-light text-lg">
+                            <p className="text-purple-100/90 leading-relaxed font-light text-lg">
                                 {item.desc}
                             </p>
                         </div>

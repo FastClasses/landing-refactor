@@ -12,7 +12,7 @@ const Hero = ({ t }) => {
     }, []);
 
     return (
-        <div className="relative bg-deep-blue min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <div className="relative bg-deep-purple min-h-screen flex items-center justify-center overflow-hidden pt-20">
 
             {/* Video Background */}
             <div className="absolute inset-0 z-0">
@@ -41,8 +41,8 @@ const Hero = ({ t }) => {
                     </p>
                     <div className="animate-fade-in-up delay-200 flex justify-center">
                         <button
-                            onClick={() => navigate('/services')}
-                            className="bg-white text-deep-blue font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-xl hover:bg-gray-100 transition-all transform hover:-translate-y-1 flex items-center"
+                            onClick={() => navigate('/contact')}
+                            className="bg-white text-deep-purple font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-xl hover:bg-gray-100 transition-all transform hover:-translate-y-1 flex items-center"
                         >
                             {t.hero.cta}
                         </button>

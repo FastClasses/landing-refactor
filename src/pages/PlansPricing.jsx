@@ -9,12 +9,12 @@ const PlansPricing = ({ t }) => {
             </Helmet>
 
             {/* Hero Section */}
-            <section className="relative bg-deep-blue text-white py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+            <section className="relative bg-deep-purple text-white py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
                 <div className="relative max-w-7xl mx-auto text-center z-10">
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
                         {t.pricing?.title || "Plans & Pricing"}
                     </h1>
-                    <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto font-light">
+                    <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto font-light">
                         {t.pricing?.subtitle || "Flexible options for every learner."}
                     </p>
                 </div>
@@ -38,7 +38,7 @@ const PlansPricing = ({ t }) => {
                         {/* Basic Plan */}
                         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
                             <div className="p-8">
-                                <h3 className="text-2xl font-bold text-deep-blue mb-2">Basic</h3>
+                                <h3 className="text-2xl font-bold text-deep-purple mb-2">Basic</h3>
                                 <div className="text-4xl font-bold text-gray-900 mb-6">€29<span className="text-lg text-gray-500 font-normal">/mo</span></div>
                                 <ul className="space-y-4 mb-8">
                                     <li className="flex items-center text-gray-600">
@@ -50,15 +50,15 @@ const PlansPricing = ({ t }) => {
                                         Community Support
                                     </li>
                                 </ul>
-                                <button className="w-full bg-blue-50 text-deep-blue font-bold py-3 px-4 rounded-lg hover:bg-blue-100 transition-colors">Choose Plan</button>
+                                <button className="w-full bg-purple-50 text-deep-purple font-bold py-3 px-4 rounded-lg hover:bg-purple-100 transition-colors">Choose Plan</button>
                             </div>
                         </div>
 
                         {/* Pro Plan */}
-                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 border-2 border-deep-blue transform md:-translate-y-4">
-                            <div className="bg-deep-blue text-white text-center py-2 text-sm font-bold uppercase tracking-wider">Most Popular</div>
+                        <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 border-2 border-deep-purple transform md:-translate-y-4">
+                            <div className="bg-deep-purple text-white text-center py-2 text-sm font-bold uppercase tracking-wider">Most Popular</div>
                             <div className="p-8">
-                                <h3 className="text-2xl font-bold text-deep-blue mb-2">Pro</h3>
+                                <h3 className="text-2xl font-bold text-deep-purple mb-2">Pro</h3>
                                 <div className="text-4xl font-bold text-gray-900 mb-6">€59<span className="text-lg text-gray-500 font-normal">/mo</span></div>
                                 <ul className="space-y-4 mb-8">
                                     <li className="flex items-center text-gray-600">
@@ -74,14 +74,14 @@ const PlansPricing = ({ t }) => {
                                         Priority Support
                                     </li>
                                 </ul>
-                                <button className="w-full bg-deep-blue text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-800 transition-colors">Choose Plan</button>
+                                <button className="w-full bg-deep-purple text-white font-bold py-3 px-4 rounded-lg hover:bg-purple-800 transition-colors">Choose Plan</button>
                             </div>
                         </div>
 
                         {/* Enterprise Plan */}
                         <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-100">
                             <div className="p-8">
-                                <h3 className="text-2xl font-bold text-deep-blue mb-2">Enterprise</h3>
+                                <h3 className="text-2xl font-bold text-deep-purple mb-2">Enterprise</h3>
                                 <div className="text-4xl font-bold text-gray-900 mb-6">Custom</div>
                                 <ul className="space-y-4 mb-8">
                                     <li className="flex items-center text-gray-600">
@@ -93,7 +93,7 @@ const PlansPricing = ({ t }) => {
                                         Dedicated Manager
                                     </li>
                                 </ul>
-                                <button className="w-full bg-blue-50 text-deep-blue font-bold py-3 px-4 rounded-lg hover:bg-blue-100 transition-colors">Contact Sales</button>
+                                <button className="w-full bg-purple-50 text-deep-purple font-bold py-3 px-4 rounded-lg hover:bg-purple-100 transition-colors">Contact Sales</button>
                             </div>
                         </div>
                     </div>
