@@ -92,8 +92,8 @@ const Home = ({ t }) => {
                 <div className="max-w-7xl mx-auto space-y-24">
                     {/* Row 1: Image Left / Text Right */}
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                        <div className="order-2 lg:order-1">
-                            <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-2 transform -rotate-1 hover:rotate-0 transition-transform duration-500">
+                        <div className="order-2 lg:order-1 flex justify-center">
+                            <div className="w-1/2 bg-white rounded-3xl shadow-lg border border-gray-100 p-2 transform -rotate-1 hover:rotate-0 transition-transform duration-500">
                                 <img
                                     src={`${import.meta.env.BASE_URL}assets/scheduler_preview.png`}
                                     alt="FastClass Scheduler Interface"

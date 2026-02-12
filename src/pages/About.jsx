@@ -43,15 +43,12 @@ const About = ({ t }) => {
                         </div>
                     </div>
                     <div className="lg:col-span-6 order-1 lg:order-2 animate-fade-in-right">
-                        {/* Placeholder for "Chaotic" Illustration */}
-                        <div className="bg-gray-100 rounded-3xl p-8 border border-gray-200 shadow-sm aspect-video flex items-center justify-center relative overflow-hidden group">
-                            <div className="absolute inset-0 bg-gradient-to-tr from-gray-200/50 to-transparent"></div>
-                            <div className="text-center">
-                                <svg className="w-16 h-16 text-gray-400 mx-auto mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                </svg>
-                                <span className="text-gray-500 font-medium">Legacy Spreadsheets & Manual Chaos</span>
-                            </div>
+                        <div className="bg-gray-100 rounded-3xl p-2 border border-gray-200 shadow-sm transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                            <img
+                                src={`${import.meta.env.BASE_URL}assets/legacy_spreadsheet.png`}
+                                alt="Legacy Spreadsheet Chaos"
+                                className="w-full h-auto rounded-2xl shadow-inner opacity-90"
+                            />
                         </div>
                     </div>
                 </div>
@@ -60,11 +57,12 @@ const About = ({ t }) => {
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                     <div className="lg:col-span-6 animate-fade-in-left">
                         {/* Placeholder for "FastClass Dashboard" */}
-                        <div className="bg-deep-purple/5 rounded-3xl p-8 border border-deep-purple/10 shadow-sm aspect-video flex items-center justify-center relative overflow-hidden">
-                            <div className="text-center">
-                                <img src={`${import.meta.env.BASE_URL}assets/fastclass_logo.png`} alt="FastClass Dashboard" className="h-16 w-auto mx-auto mb-4 opacity-80" />
-                                <span className="text-deep-purple font-medium">FastClass Intelligent Dashboard</span>
-                            </div>
+                        <div className="bg-deep-purple/5 rounded-3xl p-2 border border-deep-purple/10 shadow-sm transform rotate-1 hover:rotate-0 transition-transform duration-500">
+                            <img
+                                src={`${import.meta.env.BASE_URL}assets/intelligent_dashboard.png`}
+                                alt="FastClass Intelligent Dashboard"
+                                className="w-full h-auto rounded-2xl shadow-inner"
+                            />
                         </div>
                     </div>
                     <div className="lg:col-span-6 space-y-6 animate-fade-in-right">
