@@ -113,7 +113,7 @@ const Contact = ({ t }) => {
                                     </div>
                                     <div className="ml-4">
                                         <p className="text-base font-medium text-gray-900">Email</p>
-                                        <p className="mt-1 text-gray-600 font-light">ines.viegas@marafado.pt</p>
+                                        <p className="mt-1 text-gray-600 font-light">ines.viegas@fastclass.pt</p>
                                     </div>
                                 </div>
 

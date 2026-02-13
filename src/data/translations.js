@@ -79,7 +79,57 @@ export const translations = {
             title: "Planos e Preços",
             subtitle: "Opções flexíveis para a sua aprendizagem.",
             packagesTitle: "Os Nossos Pacotes",
-            intro: "Explore os nossos níveis de preços competitivos desenhados para acelerar a sua aprendizagem."
+            intro: "Explore os nossos níveis de preços competitivos desenhados para acelerar a sua aprendizagem.",
+            toggle: {
+                monthly: "Mensal",
+                yearly: "Anual",
+                discount: "Poupe 20%"
+            },
+            plans: [
+                {
+                    name: "Plano Base",
+                    price: {
+                        monthly: "29€",
+                        yearly: "23€" // 29 * 0.8 = 23.2
+                    },
+                    period: {
+                        monthly: "/mês",
+                        yearly: "/mês"
+                    },
+                    description: "Gestão essencial para escolas e explicadores.",
+                    features: [
+                        { text: "Base de Dados de Utilizadores", tooltip: "Alunos, Professores, Staff." },
+                        { text: "Acesso para todos os utilizadores" },
+                        { text: "Gestão Central", tooltip: "Agendamento, Escolas, Parcerias." },
+                        { text: "Rastreio Financeiro", tooltip: "Pagamentos e dívidas a professores." },
+                        { text: "Personalização (White-label)", tooltip: "Logótipo e tema próprio." },
+                        { text: "Suporte Standard", tooltip: "Dias úteis 10:00 - 17:00." }
+                    ],
+                    cta: "Escolher Plano",
+                    highlight: false
+                },
+                {
+                    name: "Plano Premium",
+                    price: {
+                        monthly: "59€",
+                        yearly: "47€" // 59 * 0.8 = 47.2
+                    },
+                    period: {
+                        monthly: "/mês",
+                        yearly: "/mês"
+                    },
+                    description: "Automação e suporte melhorado.",
+                    features: [
+                        { text: "Tudo no Plano Base" },
+                        { text: "Ferramentas de Comunicação Direta" },
+                        { text: "Proteção contra Faltas", tooltip: "SMS para aulas do dia seguinte." },
+                        { text: "Recuperação de Dívidas Automática", tooltip: "Emails de cobrança gerados pelo sistema." },
+                        { text: "Suporte Melhorado 24/7" }
+                    ],
+                    cta: "Escolher Plano",
+                    highlight: true
+                }
+            ]
         },
 
 
@@ -174,7 +224,57 @@ export const translations = {
             title: "Plans & Pricing",
             subtitle: "Flexible options for every learner.",
             packagesTitle: "Our Packages",
-            intro: "Explore our competitive pricing tiers designed to speed up your learning."
+            intro: "Explore our competitive pricing tiers designed to speed up your learning.",
+            toggle: {
+                monthly: "Monthly",
+                yearly: "Yearly",
+                discount: "Save 20%"
+            },
+            plans: [
+                {
+                    name: "Base Plan",
+                    price: {
+                        monthly: "€29",
+                        yearly: "€23"
+                    },
+                    period: {
+                        monthly: "/mo",
+                        yearly: "/mo"
+                    },
+                    description: "Essential management for schools and tutors.",
+                    features: [
+                        { text: "User Database", tooltip: "Students, Teachers, Staff." },
+                        { text: "Login access for all users" },
+                        { text: "Central Management", tooltip: "Scheduling, Schools, Partnerships." },
+                        { text: "Financial Tracking", tooltip: "Payments and teacher debts." },
+                        { text: "White-labeling", tooltip: "Logo and custom theme." },
+                        { text: "Standard Support", tooltip: "Business days 10:00 - 17:00." }
+                    ],
+                    cta: "Choose Plan",
+                    highlight: false
+                },
+                {
+                    name: "Premium Plan",
+                    price: {
+                        monthly: "€59",
+                        yearly: "€47"
+                    },
+                    period: {
+                        monthly: "/mo",
+                        yearly: "/mo"
+                    },
+                    description: "Automation and enhanced support.",
+                    features: [
+                        { text: "Everything in Base Plan" },
+                        { text: "Direct Communication Tools" },
+                        { text: "No-Show Protection", tooltip: "SMS reminders for next-day classes." },
+                        { text: "Automated Debt Recovery", tooltip: "System-generated collection emails." },
+                        { text: "24/7 Enhanced Support" }
+                    ],
+                    cta: "Choose Plan",
+                    highlight: true
+                }
+            ]
         },
 
 

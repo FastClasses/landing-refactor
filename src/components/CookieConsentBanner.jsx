@@ -29,7 +29,7 @@ const CookieConsentBanner = ({ lang }) => {
             buttonText={t.button}
             declineButtonText={t.decline}
             enableDeclineButton
-            cookieName="marafado_consent"
+            cookieName="fastclass_consent"
             style={{ background: "#2B373B", alignItems: "center" }}
             buttonStyle={{ color: "#ffffff", fontSize: "14px", fontWeight: "bold", background: "#DAA520", borderRadius: "5px", padding: "10px 20px" }}
             declineButtonStyle={{ color: "#ffffff", fontSize: "12px", background: "transparent", border: "1px solid #ffffff", borderRadius: "5px", padding: "8px 15px" }}
